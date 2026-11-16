@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek-Chat-Panel",
+    "description": "Fügt eine Zeile DeepSeek Chat im Fuß der Seitenleiste (über Settings) und einen Knopf im Eingabefeld hinzu; beide öffnen chat.deepseek.com im Seitenleisten-Browser. Die Zeile braucht eine ausgewählte Sitzung."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek Chat 网页面板",
+    "description": "在左侧栏底部(设置上方)加一行 DeepSeek Chat,并在输入框工具行加一个按钮;两者都把 chat.deepseek.com 打开到右侧栏内置浏览器,网页版对话就贴在当前会话旁边。底部那一行需要先选中一个会话。"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Panel de DeepSeek Chat",
+    "description": "Añade una fila DeepSeek Chat en el pie de la barra lateral (encima de Settings) y un botón en el compositor; ambos abren chat.deepseek.com en el navegador de la barra lateral derecha. La fila necesita una sesión seleccionada."
+  }
+}

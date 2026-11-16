@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Panneau DeepSeek Chat",
+    "description": "Ajoute une ligne DeepSeek Chat dans le pied de la barre latérale (au-dessus de Settings) et un bouton dans le compositeur ; les deux ouvrent chat.deepseek.com dans le navigateur de la barre latérale droite. La ligne exige une session sélectionnée."
+  }
+}

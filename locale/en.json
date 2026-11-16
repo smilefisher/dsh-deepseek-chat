@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek Chat panel",
+    "description": "Adds a DeepSeek Chat row in the Sidebar foot above Settings and a button in the composer tool row; both open chat.deepseek.com in the right Sidebar browser so the web chat sits beside the current session. The foot row needs a selected session."
+  }
+}

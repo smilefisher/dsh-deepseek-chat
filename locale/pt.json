@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Painel do DeepSeek Chat",
+    "description": "Adiciona uma linha DeepSeek Chat no rodapé da barra lateral (acima de Settings) e um botão no compositor; ambos abrem chat.deepseek.com no navegador da barra lateral direita. A linha precisa de uma sessão selecionada."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "dsh-deepseek-chat",
+  "version": "1.1.0",
+  "description": "Open DeepSeek's web chat beside the current session in the right Sidebar browser",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smilefisher/dsh-deepseek-chat.git"
+  },
+  "homepage": "https://github.com/smilefisher/dsh-deepseek-chat#readme",
+  "bugs": {
+    "url": "https://github.com/smilefisher/dsh-deepseek-chat/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "deepseek-chat",
+    "sidebar",
+    "browser"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar-right",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

@@ -1,4 +1,4 @@
-# dsh-deepseek-chat
+# dsh-deepseek-chat-panel
 
 Open [DeepSeek's web chat](https://chat.deepseek.com) beside the current session, inside DeepSeek Harness's right Sidebar browser.
 

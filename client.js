@@ -8,7 +8,7 @@
  * embedding a cross-origin iframe.
  */
 window.__ModuleLoader__.load({
-  id: 'dsh-deepseek-chat',
+  id: 'dsh-deepseek-chat-panel',
   factory(require) {
     const React = require('react')
     const h = React.createElement

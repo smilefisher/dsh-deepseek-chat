@@ -35,6 +35,7 @@ Both open `https://chat.deepseek.com/` in the right Sidebar and expand it. Click
 - Sign-in state lives in the sandboxed Browser partition and does not survive an app restart, so you may need to sign in again after restarting DSH.
 - The DeepSeek page itself starts a new web chat on load; its history belongs to your DeepSeek account, not to this plugin or to DSH.
 - The plugin reads nothing from and proxies nothing to the page: it opens a fixed URL.
+- DeepSeek may show 「使用环境异常」 (unusual environment): its web client flags the Electron `webview` by user agent. The Host half gives webview guests a plain Chromium user agent (real engine version, no `Electron/` token), which normally removes the notice. This is a compatibility shim, not a DeepSeek-sanctioned client, and the site may still flag the environment or limit sign-in. Use the page under DeepSeek's terms; when in doubt, open it in your system browser.
 - Web-profile entry points stay disabled because a cross-origin frame would be refused by the site.
 
 ## How it works
@@ -72,6 +73,7 @@ DeepSeek 站点会拒绝被 iframe 嵌入,所以本插件不自己做网页容�
 - 登录状态保存在内置浏览器的沙箱分区里,应用重启后可能需要重新登录。
 - 网页本身每次加载都是新对话,历史在你的 DeepSeek 账号里。
 - 插件不读取、不代理页面内容,只打开固定地址。
+- DeepSeek 可能提示「使用环境异常」:它的网页端会按 UA 识别 Electron `webview`。本插件的 Host 半会给 webview 访客一个普通 Chromium UA(使用真实内核版本、去掉 `Electron/` 标记),通常可以消除该提示。这只是一个兼容性处理,并不代表 DeepSeek 认可此客户端,网页端仍可能判定环境异常或限制登录。请在遵守 DeepSeek 服务条款的前提下使用;拿不准时用系统浏览器打开。
 
 ## 许可证
 
